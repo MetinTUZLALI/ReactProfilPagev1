@@ -1,0 +1,131 @@
+/********************
+General Styling
+********************/
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    margin:0;
+    padding:0
+}
+body{
+    font: 76% arial,sans-serif;text-align:center
+
+}
+table td:nth-child(even){
+    background-color: rgb(255, 157, 157);
+}
+table td:nth-child(odd){
+    background-color: rgb(172, 129, 241);
+}
+table{
+    border: 1px green dotted;
+    width: 370px;
+}
+table:hover{
+    background-color: lawngreen;
+    cursor:crosshair;
+
+}
+/********************
+Typology
+********************/
+
+p{
+    margin:0 10px 10px
+}
+a{
+    padding:5px; 
+    color:#000000;
+}
+
+.baskin{
+    font-weight:bolder ;
+}
+.kirmizi{
+    color: red;
+}
+.altcizik{
+    text-decoration: underline;
+    font-style: italic;
+}
+div#header{
+    background: url(./image/background.jpg);
+}
+#header h1{
+    height:80px;line-height:80px;margin:0;padding-left:10px;
+}
+div#container{
+    text-align:left
+}
+div#content p{
+    line-height:1.4
+}
+div#navigation{
+    background:#f5edd6;
+}
+div#navigation ul{
+    margin:15px 0;
+    padding:0;
+    list-style-type:none;
+}
+div#navigation li{
+    margin-bottom:5px;
+}
+div#extra{
+    background:#CCC8B3;
+}
+div#footer{
+    background:#BFBD93;
+}
+div#footer:hover{
+    background-color: lightblue;
+    color: red;
+    cursor: grab;
+}
+div#footer p{
+    margin:0;
+    padding:5px 10px
+}
+div#container{
+    width: 700px;
+    margin:0 auto
+}
+div#wrapper{
+    float:left;width:100%
+}
+div#content{
+    margin: 0 150px
+}
+div#navigation{
+    float:left;
+    width:150px;
+    margin-left:-700px
+}
+div#extra{
+    float:left;
+    width:150px;
+    margin-left:-150px
+}
+div#footer{
+    clear:left;
+    width:100%
+}
+#p-img{
+    width: 140px;
+    box-shadow: 1vw 1vw 1vw gray;
+    position: static;
+}
+.i-cons{
+    height: 0.62rem;
+    width: 10;
+    margin-right: 20px;
+}
+#footerp{
+    margin:250px;
+}
+.profilvideo{
+    width: 140px;  
+    
+}
