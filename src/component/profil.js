@@ -2,10 +2,7 @@ import "./profil.css";
 
 export default function Profil(){
 return(
-    <div id="container">
-    <div id="header"><h1><a href="index.html">Web Sayfası Geliştirici</a></h1></div>
-    <div id="wrapper">
-    <div id="content">
+  <div>
       <fieldset>
         <legend>Eğitim Geçmişi</legend>
         <table>
@@ -152,38 +149,6 @@ return(
           </tbody>
         </table>
       </fieldset>
-    </div>
-  </div>
-  <div id="navigation">
-    <nav>
-    <p><strong>Metin TUZLALI</strong></p>
-    <img id="p-img" src="./image/profil.jpg" alt="Profil Resmi">
-    <ul>
-      <li><a href="#"><img class="i-cons" src="./image/icon/facebook.png" alt="facebook">facebook</a></li>
-      <li><a href="#"><img class="i-cons" src="./image/icon/instagram.png" alt="instagram">instagram</a></li>
-      <li><a href="#"><img class="i-cons" src="./image/icon/email.png" alt="email">E-mail</a></li>
-      <li><a href="#"><img class="i-cons" src="./image/icon/linkedin.png" alt="linkedin">linkedin</a></li>
-      <li><a href="#"><img class="i-cons" src="./image/icon/twitter.png" alt="twitter">twitter</a></li>
-    </ul>
-  </nav>
-  </div>
-  <div id="extra">
-    <p><strong>Hakkımda</strong></p>
-    <p><span class="kirmizi"> Dr. Metin TUZLALI</span>, 1986 yılında İstanbul'da doğdu. 
-      2004 yılında <span class="altcizik">Özel Bilgi Lisesi</span>'ni birincilikle tamamladı. 
-      2008 yılında Marmara Üniversitesi İletişim Fakültesi Radyo, 
-      <span class="baskin">Televizyon ve Sinema Bölümü</span>'nü de birincilikle bitirdi. 
-      Bu zaman dilimi içerisinde çeşitli medya kuruluşlarında çalıştı. 
-      2009 yılında Marmara Üniversitesi İletişim Fakültesi Radyo, 
-      Televizyon ve Sinema Bölümü'nde Araştırma Görevlisi olarak
-      akademik hayatına başladı. 2010 yılında "Televizyon Yayın Teknolojisi"
-      adlı yüksek lisans tezini tamamladı. 
-      Aynı yıl içerisinde Marmara Üniversitesi Radyo, Televizyon Dalı'nda
-      doktora eğitimine başladı.</p>
-  </div>
-  <div id="footer">
-    <p><span id="footerp">Copyright &copy; Metin TUZLALI</span></p>
-  </div>
-</div>
+      </div>
 )
 }

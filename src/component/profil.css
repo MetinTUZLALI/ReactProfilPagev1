@@ -50,9 +50,8 @@ a{
     text-decoration: underline;
     font-style: italic;
 }
-div#header{
-    background: url(./image/background.jpg);
-}
+
+
 #header h1{
     height:80px;line-height:80px;margin:0;padding-left:10px;
 }
